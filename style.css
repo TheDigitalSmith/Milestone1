@@ -1,12 +1,17 @@
 /* 11) Give a maximum width to the body and center it in the page */
 body {
     max-width: 500px;
-    align-content: center;
+    margin-left: auto;
+    margin-right: auto; 
+    /* Incorrect, (flexbox)
+    align-content: center; */
 }
 
 /*  12) Set every h1 to be centered*/
 h1 {
-    align-content: center;
+    text-align: center;
+    /* Incorrect, (flexbox)
+    align-content: center; */
 }
 
 /* 13) Change the color of each link in the page*/
@@ -23,7 +28,7 @@ header.firstHeader {
 }
 
 /* 15) Set table to have rounded borders */
-#table {
+table {
     border-radius: 12px;
 }
 
@@ -37,7 +42,7 @@ p + p {
 /*17) Create a class which change font size and boldness*/
 
 .alter {
-    font: size 12px;
+    font-size: 12px;
     font-weight:bold;
 }
 
